@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Rafał Małyszko" />
+    <title>Klunk - recruitment task</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-navigation">
+        <div class="logo-menu">
+          <button id="menu-btn" class="menu">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+          </button>
+          <a href="/">
+            <img class="logo" src="./assets/logo.svg" alt="logo" />
+          </a>
+        </div>
+
+        <div class="search-wrapper">
+          <div class="search-container">
+            <img src="./assets/search.svg" alt="search" class="search-logo" />
+            <input
+              id="search"
+              aria-label="search"
+              autocomplete="off"
+              placeholder=""
+              spellcheck="false"
+              type="search"
+              name="q"
+              class="search-input"
+            />
+          </div>
+        </div>
+
+        <div class="links">
+          <a class="link" href="#">
+            <figure class="link-figure">
+              <img
+                class="link-img"
+                src="./assets/wishlist.svg"
+                alt="wishlist"
+              />
+              <figcaption class="link-caption">Wishlist</figcaption>
+            </figure>
+          </a>
+          <a class="link" href="#">
+            <figure class="link-figure">
+              <img class="link-img" src="./assets/account.svg" alt="account" />
+              <figcaption class="link-caption">Account</figcaption>
+            </figure>
+          </a>
+          <a class="link" href="#">
+            <figure class="link-figure">
+              <img class="link-img" src="./assets/cart.svg" alt="cart" />
+              <figcaption class="link-caption">Cart</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+      <nav id="nav" class="nav-container">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#">Canvas</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Digital Download</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Gift Card</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Poster</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page-content-1"></div>
+    <div class="page-content-2"></div>
+
+    <script type="text/javascript" src="./index.js" />
+  </body>
+</html>
